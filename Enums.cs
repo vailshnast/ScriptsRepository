@@ -10,5 +10,6 @@ namespace GlobalVars
         AI,
         None
     }
+    
 }
 
