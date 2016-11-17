@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 using GlobalVars;
 
@@ -10,6 +10,7 @@ public class PlanetNode : MonoBehaviour {
 
     private Owner owner;
 
+	[System.Serializable]
     private List<PlanetNode> connectedPlanet = new List<PlanetNode>();
 
 	// Use this for initialization
@@ -37,5 +38,5 @@ public class PlanetNode : MonoBehaviour {
         GameObjects.planetList.Add(this);
     }
 
-    //private SetConnectedPlanets
+    
 }
